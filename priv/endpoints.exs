@@ -2056,6 +2056,13 @@
             "us-east-2" => %{},
             "us-west-2" => %{}
           }
+        },
+        "personalize-events" => %{
+          "defaults" => %{"protocols" => ["https"]},
+          "endpoints" => %{
+            "ap-northeast-1" => %{"hostname" => "personalize-events.ap-northeast-1.amazonaws.com"},
+            "eu-central-1" => %{"hostname" => "personalize-events.eu-central-1.amazonaws.com"}
+          }
         }
       }
     },
